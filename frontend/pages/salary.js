@@ -10,7 +10,7 @@ import WalletConnectProvider from "@walletconnect/web3-provider"
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export default function salary() {
+export default function Salary() {
 
   const [address, setAddress] = useState("");
   const [position, setPosition] = useState(0);

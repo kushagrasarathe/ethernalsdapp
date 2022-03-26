@@ -10,7 +10,7 @@ import WalletConnectProvider from "@walletconnect/web3-provider";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export default function emplist() {
+export default function Emplist() {
   const [address, setAddress] = useState("");
   const [position, setPosition] = useState(0);
 
@@ -171,7 +171,7 @@ export default function emplist() {
 
       <div className="top-3">
         <div className="mt-8 p-12 rounded-md max-w-lg mx-auto shadow-2xl sm:p-3 bg-opacity-90 bg-gray-400  ">
-          <table class=" p-12 rounded-md max-w-lg mx-auto sm:p-3 table-auto text-black ">
+          <table className=" p-12 rounded-md max-w-lg mx-auto sm:p-3 table-auto text-black ">
             <thead className="text-white text-center text-2xl font-semibold ">
               <tr>
                 <h3 className="text-black text-center text-2xl font-semibold">
@@ -186,7 +186,7 @@ export default function emplist() {
         </div>
 
         <div className="mt-8 p-12 rounded-md max-w-lg mx-auto shadow-2xl sm:p-3 bg-opacity-90 bg-gray-400  ">
-          <table class=" p-12 rounded-md max-w-lg mx-auto sm:p-3  table-auto text-black ">
+          <table className=" p-12 rounded-md max-w-lg mx-auto sm:p-3  table-auto text-black ">
             <thead className="text-white text-center text-2xl font-semibold ">
               <tr>
                 <h3 className="text-black text-center text-2xl font-semibold">
@@ -201,7 +201,7 @@ export default function emplist() {
         </div>
 
         <div className="mt-8 p-12 rounded-md max-w-lg mx-auto shadow-2xl sm:p-3 bg-opacity-90 bg-gray-400  ">
-          <table class=" p-12 rounded-md max-w-lg mx-auto sm:p-3  table-auto text-black ">
+          <table className=" p-12 rounded-md max-w-lg mx-auto sm:p-3  table-auto text-black ">
             <thead className="text-white text-center text-2xl font-semibold ">
               <tr>
                 <h3 className="text-black text-center text-2xl font-semibold">

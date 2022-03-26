@@ -9,7 +9,7 @@ import WalletConnectProvider from "@walletconnect/web3-provider"
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export default function funds() {
+export default function Funds() {
 
 
 
@@ -206,7 +206,7 @@ export default function funds() {
 
       <div className="top-3">
         <div className="mt-8 p-12 rounded-md max-w-lg mx-auto shadow-2xl sm:p-3 bg-opacity-90 bg-gray-400  ">
-          <p class=" p-12 rounded-md max-w-lg mx-auto sm:p-3 text-black ">
+          <p className=" p-12 rounded-md max-w-lg mx-auto sm:p-3 text-black ">
               
               <h1 className="text-black text-2xl font-semibold text-center">  
                   

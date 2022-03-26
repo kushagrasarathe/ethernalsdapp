@@ -15,13 +15,13 @@ export default function Contact() {
             <div className="text-black font-semibold">
               <p className="mt-8 text-2xl font-medium text-center">About This Dapp</p>
               <p className="max-w-sm mx-auto p-4 mt-4 text-md font-medium">
-                This is a Salary Management Decentralized application that lets an organisation's admin send payments to their employees in Ethereum.
+                This is a Salary Management Decentralized application that lets an organisation&apos;s admin send payments to their employees in Ethereum.
                 <br />
                 <br />
-                The application allows an admin to add an employee to their list using "Add Employee" feature and then later pay them salary in ETH using the "Pay Salary" feature.
+                The application allows an admin to add an employee to their list using Add Employee feature and then later pay them salary in ETH using the Pay Salary feature.
                 <br />
                 <br />
-                The application also allows an admin to see all employees under "Employees List" section.
+                The application also allows an admin to see all employees under Employees List section.
               </p>
             
 

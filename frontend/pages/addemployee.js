@@ -10,7 +10,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 
-export default function addemployee() {
+export default function Addemployee() {
 
   const [connection, setConnection] = useState(false);
   const [address, setAddress] = useState("");
@@ -18,7 +18,6 @@ export default function addemployee() {
   const [loading, setLoading] = useState();
   const web3ModalRef = useRef();
   const [account, setAccount] = useState("");
-  const [walletConnected, setWalletConnected] = useState(false)
   const [Signer, setSigner] = useState();
   const notify = (message) => toast(`${message}`);
   
