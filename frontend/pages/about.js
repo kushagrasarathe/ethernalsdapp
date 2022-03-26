@@ -13,7 +13,7 @@ export default function Contact() {
       <div className="mt-8 p-12 rounded-md max-w-lg mx-auto shadow-2xl sm:p-3 bg-opacity-90 bg-gray-400  ">
           <div className="text-center">
             <div className="text-black font-semibold">
-              <p className="mt-8 text-2xl font-medium text-center">About Me</p>
+              <p className="mt-8 text-2xl font-medium text-center">About This Dapp</p>
               <p className="max-w-sm mx-auto p-4 mt-4 text-md font-medium">
                 This is a Salary Management Decentralized application that lets an organisation's admin send payments to their employees in Ethereum.
                 <br />
