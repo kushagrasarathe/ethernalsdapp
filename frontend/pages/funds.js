@@ -172,7 +172,7 @@ export default function Funds() {
      <div className="top-3">
         <div className="mt-8 p-12 rounded-md max-w-lg mx-auto shadow-2xl sm:p-3 bg-opacity-50 bg-gray-400 ">
           <p className="text-center text-4xl font-bold">
-            Enter Amount in MATIC
+            Enter Amount Below
           </p>
           <div className="space-x-4 mt-4 text-center">
             <input
