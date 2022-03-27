@@ -118,7 +118,7 @@ export default function Salary() {
 
       let tx = salContract.payEmployees({gasLimit: 105000});
       let pay = await tx;
-
+      
       toast("Salary Paid")
       console.log("Done", pay);
       
