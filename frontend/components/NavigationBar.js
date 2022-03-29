@@ -13,7 +13,7 @@ export default function NavigationBar( props ) {
   return (
     //fixed top-2 z-50 inset-x-0
     <div className="pt-2">
-      <nav className="fixed p-3 mx-2 h-[8vh] text-gray-100 inset-x-0 top-3 shadow-2xl sm:rounded-2xl sm:p-3 bg-opacity-70 bg-gray-50 dark:bg-gray-800 flex justify-between items-center rounded-lg overflow-x-auto ">
+      <nav className="fixed p-3 mx-2 h-[vh] text-gray-100 inset-x-0 top-3 shadow-2xl sm:rounded-2xl sm:p-3 bg-opacity-70 bg-gray-50 dark:bg-gray-800 flex justify-between items-center rounded-lg overflow-x-auto ">
       <Link href="/">
         <h1 className="text-xl font-bold text-center">LW3HUSTLERS</h1>
       </Link>
