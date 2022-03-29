@@ -1,4 +1,7 @@
-This is our project for [Ethernals Hackathon](https://ethernals.devfolio.co/). Built on Polygon.
+This is our project for [Ethernals Hackathon](https://ethernals.devfolio.co/). Built on Polygon and deploye dusing Spheron.
+
+You can check out live project here:
+[https://ethernals_dapp-fdf458.argoapp.io/](https://ethernals_dapp-fdf458.argoapp.io/)
 
 ## Getting Started
 
