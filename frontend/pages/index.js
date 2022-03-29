@@ -5,7 +5,7 @@ import { CONTRACT_ADDRESS, CONTRACT_ABI } from "../constants";
 import Link from "next/link";
 import Button from "../components/Button";
 import NavigationBar from "../components/NavigationBar";
-// import Image from "../components/WelcomeImage";
+import Image from "../components/WelcomeImage";
 import SideBar from "../components/SideBar";
 import WalletConnectProvider from "@walletconnect/web3-provider";
 import { ToastContainer, toast } from "react-toastify";
@@ -140,7 +140,7 @@ export default function Home() {
       </div>
 
       <div className="mt-16 flex justify-center">
-            {/* <Image/> */}
+            {/* <WelcomeImage /> */}
       </div>
 
     </>
