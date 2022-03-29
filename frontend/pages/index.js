@@ -5,11 +5,11 @@ import { CONTRACT_ADDRESS, CONTRACT_ABI } from "../constants";
 import Link from "next/link";
 import Button from "../components/Button";
 import NavigationBar from "../components/NavigationBar";
+import Image from "../components/WelcomeImage";
 import SideBar from "../components/SideBar";
 import WalletConnectProvider from "@walletconnect/web3-provider";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Image from 'next/image';
 
 export default function Home() {
   const [address, setAddress] = useState("");
@@ -132,7 +132,7 @@ export default function Home() {
           <div className="mt-8 p-12 rounded-md max-w-lg mx-auto shadow-2xl sm:p-3 bg-opacity-90 bg-gray-400  ">
           <div className="text-center">
             <div className="text-black font-semibold">
-            This is a Tooling & Infrastructure Dapp built on Polygon. 
+            This is a Infrastructure Tooling Dapp powered by Polygon. 
             </div>
             </div>
             </div>
@@ -140,7 +140,7 @@ export default function Home() {
       </div>
 
       <div className="mt-16 flex justify-center">
-          <img className="h-96" src="../cryptodevs/4.svg" />
+            <Image/>
       </div>
 
     </>

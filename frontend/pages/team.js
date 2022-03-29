@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import NavigationBar from "../components/NavigationBar";
 import Button from "../components/Button";
-import { connectWallet } from "../pages/index";
+import { connectWallet } from "./index";
 import Link from "next/link";
 
 export default function Team() {
