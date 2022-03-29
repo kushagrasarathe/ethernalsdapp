@@ -132,7 +132,11 @@ export default function Home() {
           <div className="mt-8 p-12 rounded-md max-w-lg mx-auto shadow-2xl sm:p-3 bg-opacity-90 bg-gray-400  ">
           <div className="text-center">
             <div className="text-black font-semibold">
-            This is a Infrastructure Tooling Dapp powered by Polygon. 
+            This is a Infrastructure Tooling Dapp powered by <br /> 
+            <span className="font-bold">
+              Polygon &amp; Spheron.   
+            </span> 
+            
             </div>
             </div>
             </div>
