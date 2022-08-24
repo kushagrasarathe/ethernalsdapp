@@ -108,6 +108,17 @@
   margin-left: 0.5rem;
 }
 
+.btn {
+  padding: 12px 15px;
+  background: rgb(185, 252, 253);
+  color: black;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: rgb(138, 227, 229);
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
